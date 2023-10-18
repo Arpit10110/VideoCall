@@ -1,0 +1,53 @@
+.RoomDiv{
+    width: 100%;
+    height: 100vh;
+    margin-top: -7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Roomcont {
+    border: 2px solid;
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+    border-radius: 2rem;
+    padding: 3rem;
+}
+.Inputs{
+    width: 90%;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    padding-left: 1rem;
+}
+.subbtna{
+    font-weight: bolder;
+    border: 2px solid red;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+@media only screen and (width<=480px) {
+    .RoomDiv {
+        width: 100%;
+        height: 100vh;
+        margin-top: -7rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Roomcont {
+        border: 2px solid;
+        width: 82%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        border-radius: 2rem;
+        padding: 1rem;
+    }
+}
